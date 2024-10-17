@@ -28,7 +28,7 @@ proguard-project.txt
 *.ipr
 *.iws
 .gradle/**
-build/**
+build/tmp
 .idea/**
 import-summary.txt
 
@@ -48,13 +48,6 @@ local.properties
 .classpath
 .settings/
 .loadpath
-
-# Remote module
-build-logic/
-Formatter/
-UI/
-
-Assets/
 
 # External tool builders
 .externalToolBuilders/
